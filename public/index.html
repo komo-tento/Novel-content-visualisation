@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+  <body>
+    <a-scene>
+      <a-sky id="sky"></a-sky>
+    </a-scene>
+  </body>
+</html>
+<script>
+    $(document).ready(function() {
+        setInterval(function() {
+         
+            $.get('/image-url', function(data) {
+                $('#sky').attr('src', data.url);
+                console.log(data.url);
+            });
+        }, 5000); // 5秒ごとに画像URLを設定
+    });
+</script>
