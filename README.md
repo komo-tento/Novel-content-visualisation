@@ -1,0 +1,2 @@
+# Novel-content-visualisation
+小説の文章の一節から360度画像を生成するためのシステムです
