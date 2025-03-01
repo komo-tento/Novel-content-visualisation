@@ -5,7 +5,7 @@ import numpy as np
 from datetime import datetime
 
 
-with open('./book/kumono_ito.txt',mode='r',encoding='shift-jis') as f:
+with open('your_book_path',mode='r',encoding='shift-jis') as f:
     text = f.read()
     
 lines = text.split('\n')
