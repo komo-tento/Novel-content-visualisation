@@ -36,11 +36,11 @@ prompt.txtのファイルが保存されたのを確認したら、index.jsを�
 ```bash
 node index.js
 ```
-実行するとServer listening at http://localhost:~という文章と下記画像のような文章が表示されます。
+実行するとServer listening at "http://localhost:~" という文章と下記画像のような文章が表示されます。
 <img width="731" alt="スクリーンショット 2025-03-02 7 03 07" src="https://github.com/user-attachments/assets/db4ed016-6e8f-41cd-b48b-ff560a370890" />
 
 画像内で数字とともに表示されているのはSkyboxAIで生成できる画風になります。
 
 自分が生成したいと思う小説に合わせて画風の番号を選択してください。
 
-画風を選択してしばらく待つと、http://localhost:~のリンク先に生成された360度画像がA-Frameを用いて球体状に展開されるはずです。
+画風を選択してしばらく待つと、"http://localhost:~" のリンク先に生成された360度画像がA-Frameを用いて球体状に展開されるはずです。
