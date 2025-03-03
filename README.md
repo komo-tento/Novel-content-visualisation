@@ -1,7 +1,7 @@
 # Novel-content-visualisation
 小説の文章の一節から360度画像を生成するためのシステムです
 
-このシステムの作成にあたり、GPT-4のAPIとskyboxAI by Blockade LabsのAPIを使用しています。
+このシステムの作成にあたり、GPT-4のAPIとskyboxAI by Blockade Labs(https://skybox.blockadelabs.com/ )のAPIを使用しています。
 
 そのため前もって.zshrcファイルに下記内容でAPIキーを記入してください。
 
